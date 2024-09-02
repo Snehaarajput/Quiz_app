@@ -1,0 +1,144 @@
+/* QuestionAnalytics.css */
+.ques-analytics {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 40px;
+  align-items: left;
+  padding-left: 50px;
+}
+
+.title {
+  color: #5076FF;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+
+}
+
+.quiz-info {
+  text-align: right;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 22.5px;
+  color: #FF5D01;
+}
+
+.quiz-info p {
+  color: #FF6A3D;
+  font-size: 16px;
+}
+
+.question-container {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-right: 200px;
+  /* height: 20%; */
+}
+
+.question-title {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Poppins;
+  line-height: 45px;
+  text-align: left;
+
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.metric-card {
+  background: #FFFFFF;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  margin: 0 5px;
+  width: 170px;
+  height: 80px;
+}
+
+
+.metric-card h4 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #4A55A2;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #474444;
+}
+
+.metric-card p {
+  color: #808080;
+  font-size: 10px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+}
+
+.metric-card span {
+  color: #D7D7D7;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background: #4A55A2;
+  color: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.metric-card-poll {
+  display: flex;
+  background: #FFFFFF;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  margin: 0 5px;
+  width: 170px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+
+}
+
+.metric-card-poll p {
+  font-size: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #474444;
+}
+
+.metric-card-poll h4 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #474444;
+}

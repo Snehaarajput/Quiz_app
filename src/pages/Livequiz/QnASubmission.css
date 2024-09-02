@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #041325 !important;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.submission-container,
+.poll-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  justify-content: center;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Center content vertically */
+}
+
+.congrats-text {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color: #474444;
+}
+
+.score-text {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color: #474444;
+}
+
+.score-text .green {
+  color: #60B84B;
+}
+
+.poll-container p {
+  font-size: 90px;
+  /* Adjust font size for smaller screens */
+  line-height: 8rem;
+  /* Adjust line height for readability */
+  padding: 20px;
+  /* Adjust padding */
+  font-family: Poppins;
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 111px;
+  text-align: center;
+  color: #474444;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 500px) {
+
+  .submission-container,
+  .poll-container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 0px;
+    border: none;
+  }
+
+  .congrats-text,
+  .score-text {
+    font-size: 35px;
+    /* Adjust font size for smaller screens */
+    line-height: 1.2em;
+    /* Adjust line height for readability */
+  }
+
+  .logo {
+    width: 60%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .poll-container p {
+    font-size: 50px;
+    /* Adjust font size for smaller screens */
+    line-height: 1.2rem;
+    /* Adjust line height for readability */
+    padding: 20px;
+    /* Adjust padding */
+  }
+}
